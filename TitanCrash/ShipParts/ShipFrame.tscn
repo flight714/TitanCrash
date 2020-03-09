@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ShipParts/ShipFrame.cs" type="Script" id=1]
+
+[node name="ShipFrame" type="Node2D"]
+script = ExtResource( 1 )
+DrawColor = Color( 0.823529, 0.933333, 0.717647, 1 )
