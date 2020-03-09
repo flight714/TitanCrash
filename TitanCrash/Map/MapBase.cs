@@ -35,13 +35,13 @@ public class MapBase : Node2D
                 if (GetChildren()[i] is MoveToken)
                 {
                     camera.Position = (GetChildren()[i] as Node2D).Position;
+                    (GetNode("ShipFrame") as ShipFrame).Position = (GetChildren()[i] as Node2D).Position;
                     (GetChildren()[i] as MoveToken).AssignedPath.PathProgress += delta*20f;
                 }
             }
         }
-
+        (GetNode("ShipFrame") as ShipFrame).LookAtAdjusted(GetGlobalMousePosition());
         Update();
-        (GetNode("ShipFrame") as ShipFrame).Position = GetGlobalMousePosition();
     }
 
     public override void _Draw()

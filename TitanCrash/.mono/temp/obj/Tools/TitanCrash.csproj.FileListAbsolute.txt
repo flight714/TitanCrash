@@ -1,0 +1,5 @@
+/Users/jessemorelli/Documents/GitHub/TitanCrash/TitanCrash/.mono/temp/bin/Tools/TitanCrash.dll
+/Users/jessemorelli/Documents/GitHub/TitanCrash/TitanCrash/.mono/temp/bin/Tools/TitanCrash.pdb
+/Users/jessemorelli/Documents/GitHub/TitanCrash/TitanCrash/.mono/temp/obj/Tools/TitanCrash.csprojAssemblyReference.cache
+/Users/jessemorelli/Documents/GitHub/TitanCrash/TitanCrash/.mono/temp/obj/Tools/TitanCrash.dll
+/Users/jessemorelli/Documents/GitHub/TitanCrash/TitanCrash/.mono/temp/obj/Tools/TitanCrash.pdb
